@@ -84,6 +84,7 @@ class _MotionTabBarState extends State<MotionTabBar>
     super.initState();
 
     labels = widget.labels;
+    isRTL = widget.isRTL;
     icons = Map.fromIterable(
       labels,
       key: (label) => label,
